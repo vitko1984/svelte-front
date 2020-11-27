@@ -1,0 +1,11 @@
+
+  *, ::after, ::before  {
+    box-sizing: inherit;
+  }
+  .Header {
+    &-Info {
+      height: 80px;
+      background: linear-gradient(180deg, #f1013d 0%, $background-color 100%);
+      color: #fff;
+    }      
+  }
