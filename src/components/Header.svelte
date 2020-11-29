@@ -26,14 +26,14 @@ button {
 </style>
 
 <script>
-import HouseIcon from '@/public/build/images/house.svg';
-import PriceIcon from '@/public/build/images/bill.svg';
-import ContactIcon from '@/public/build/images/contact.svg';
-import AboutIcon from '@/public/build/images/about.svg';
-import RoofIcon from '@/public/build/images/roof1.svg';
-import KarkasIcon from '@/public/build/images/karkas.svg';
-import BuildIcon from '@/public/build/images/build.svg';
-import ClientIcon from '@/public/build/images/clients.svg';
+import HouseIcon from '@/src/images/house.svg';
+import PriceIcon from '@/src/images/bill.svg';
+import ContactIcon from '@/src/images/contact.svg';
+import AboutIcon from '@/src/images/about.svg';
+import RoofIcon from '@/src/images/roof1.svg';
+import KarkasIcon from '@/src/images/karkas.svg';
+import BuildIcon from '@/src/images/build.svg';
+import ClientIcon from '@/src/images/clients.svg';
 
 import {AppBar,
       Button,
@@ -99,7 +99,7 @@ console.log('$hdr: ', $hdr);
               <button class="btn-primary" on:click ={logout}>Выйти</button> 
             </span>
             <span slot="default" style="margin-left: 20px">
-              <Avatar size={60} style="margin-right: 20px"><img src="../build/images/krovlya1.jpg" alt="profile" /></Avatar>
+              <Avatar size={60} style="margin-right: 20px"><img src="krovlya1.jpg" alt="profile" /></Avatar>
             </span>
           </Row>
         </Container>

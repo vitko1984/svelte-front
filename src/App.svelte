@@ -65,7 +65,7 @@ const handleUp = () => {
     height: 100%;
     top: 0;
 	  left: 0;
-	  background: url('./images/back2.jpg') no-repeat center center fixed;  
+	  background: url('../back2.jpg') no-repeat center center fixed;  
 	  background-size: cover;  
     opacity: .9;
     z-index: -1;

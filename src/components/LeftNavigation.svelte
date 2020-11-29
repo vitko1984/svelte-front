@@ -4,7 +4,7 @@
   <NavigationDrawer {mini} style="color:yellow;text-align:center">
     <ListItem>
       <span slot="prepend" class="ml-n2">
-        <Avatar size={40}><img src="../build/images/krovlya1.jpg" alt="profile" /></Avatar>
+        <Avatar size={40}><img src="krovlya1.jpg" alt="profile" /></Avatar>
       </span>
       <h6>ВитКо</h6>
     </ListItem>
@@ -69,14 +69,14 @@
 </div>
 
 <script>
-import HouseIcon from '@/public/build/images/house.svg';
-import PriceIcon from '@/public/build/images/bill.svg';
-import ContactIcon from '@/public/build/images/contact.svg';
-import AboutIcon from '@/public/build/images/about.svg';
-import RoofIcon from '@/public/build/images/roof1.svg';
-import KarkasIcon from '@/public/build/images/karkas.svg';
-import BuildIcon from '@/public/build/images/build.svg';
-import ClientIcon from '@/public/build/images/clients.svg';
+import HouseIcon from '@/src/images/house.svg';
+import PriceIcon from '@/src/images/bill.svg';
+import ContactIcon from '@/src/images/contact.svg';
+import AboutIcon from '@/src/images/about.svg';
+import RoofIcon from '@/src/images/roof1.svg';
+import KarkasIcon from '@/src/images/karkas.svg';
+import BuildIcon from '@/src/images/build.svg';
+import ClientIcon from '@/src/images/clients.svg';
 
 import { NavigationDrawer,
         List,
